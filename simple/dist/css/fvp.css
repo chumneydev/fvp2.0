@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0 !important;
+  background: #fafbff;
+  position: relative;
+}
+
+input {
+  text-indent: 15px;
+  padding: 15px 0;
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: normal;
+  color: #009ffe;
+  width: 100%;
+  border: 1px solid #009ffe;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+input::placeholder {
+  color: #b7c2cf;
+  font-weight: 300;
+}
+
+.submit {
+  display: block;
+  background: linear-gradient(0deg, #006afd, #009ffe 100%);
+  color: #FFFFFF;
+  border: none;
+  width: 30%;
+  margin: 20px auto;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background: linear-gradient(0deg, #009ffe, #006afd 100%);
+}
+
+.autocomplete {
+  position: relative;
+}
+
+.autocomplete .autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete .autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete .autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: yellow;
+}
+
+.autocomplete .autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+#login {
+  background: #FFFFFF;
+  max-width: 800px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 20px 5px rgba(174, 187, 201, 0.3);
+  border-left: 1px solid #f5f7fb;
+  border-right: 1px solid #f5f7fb;
+  border-top: 10px solid #dfefff;
+  border-bottom: 10px solid #006afd;
+  border-radius: 10px;
+}
+
+#login .logo {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+#login p {
+  text-align: center;
+  font-size: 12px;
+  color: #b7c2cf;
+}
+
+#login p a {
+  color: #009ffe;
+}
+
+#login form {
+  margin: 20px 0;
+  background: #fafbff;
+  padding: 0 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#dashboard .logo {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+#dashboard .accent {
+  float: left;
+  background: #009ffe;
+  height: 100vh;
+  width: 5%;
+}
+
+#dashboard .accent ul {
+  margin: 0;
+  padding: 0;
+}
+
+#dashboard .accent ul li {
+  margin: 40px 0;
+  text-align: center;
+  list-style: none;
+}
+
+#dashboard .accent ul li a {
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+#dashboard .accent ul li a.active {
+  color: #009ffe;
+  border-radius: 4px;
+  background: #dfefff;
+}
+
+#dashboard .accent ul li a:hover {
+  background: linear-gradient(0deg, #006afd, #009ffe 100%);
+  border-radius: 4px;
+}
+
+#dashboard .nav {
+  float: left;
+  background: #FFFFFF;
+  border-right: 1px solid #f5f7fb;
+  height: 100vh;
+  width: 20%;
+  padding: 0 20px;
+}
+
+#dashboard .nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#dashboard .nav ul li {
+  text-align: center;
+  padding: 10px;
+}
+
+#dashboard .nav ul li a {
+  text-decoration: none;
+}
+
+#dashboard .nav ul li a.active {
+  padding: 10px 0;
+  color: #FFFFFF;
+  display: block;
+  background: linear-gradient(0deg, #006afd, #009ffe 100%);
+  border-radius: 15px;
+}
+
+#dashboard .content {
+  float: left;
+  border-right: 1px solid #f5f7fb;
+  height: 100vh;
+  width: 74%;
+}
+
+#dashboard .content form {
+  padding: 20px 40px;
+}

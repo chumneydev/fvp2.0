@@ -1,0 +1,144 @@
+#dashboard {
+
+
+    .logo {
+        display: block;
+        margin: 20px auto 0 auto;
+    }
+
+
+    .accent {
+        float: left;
+        background: $blue;
+        height: 100vh;
+        width: 5%;
+
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin: 40px 0;
+                text-align: center;
+                list-style: none;
+
+                a {
+                    padding: 15px;
+                    color: $white;
+
+                    &.active {
+                        color: $blue;
+                        border-radius: $border-radius-small;
+                        background: $lite-blue;
+
+                    }
+
+                    &:hover {
+                        background: $blue-gradient;
+                        border-radius: $border-radius-small;
+                    }
+                }
+
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+
+    .nav {
+        float: left;
+        background: $white;
+        border-right: 1px solid $dark-grey;
+        height: 100vh;
+        width: 20%;
+        padding: 0 20px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                text-align: center;
+                padding: 10px;
+            
+                a {
+                    text-decoration: none;
+
+                    &.active {
+                        padding: 10px 0;
+                        color: $white;
+                        display: block;
+                        background: $blue-gradient;
+                        border-radius: $border-radius-large;
+                    }
+            
+                    &:hover {
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    .content {
+        float: left;
+        border-right: 1px solid $dark-grey;
+        height: 100vh;
+        width: 74%;
+
+
+        form {
+            padding: 20px 40px;
+        }
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
