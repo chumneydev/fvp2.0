@@ -186,6 +186,14 @@ input::placeholder {
   border-radius: 15px;
 }
 
+#dashboard .nav ul li a:hover {
+  padding: 10px 0;
+  color: #FFFFFF;
+  display: block;
+  background: linear-gradient(0deg, #006afd, #009ffe 100%);
+  border-radius: 15px;
+}
+
 #dashboard .content {
   float: left;
   border-right: 1px solid #f5f7fb;
@@ -195,4 +203,30 @@ input::placeholder {
 
 #dashboard .content form {
   padding: 20px 40px;
+}
+
+#dashboard .content form .file-input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  border: none;
+}
+
+#dashboard .content form .file-input + label {
+  font-size: 1.25em;
+  color: #FFFFFF;
+  background: #f26518;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#dashboard .content form .file-input:focus + label {
+  background: #4bff97;
+}
+
+#dashboard .content form .file-input + label:hover {
+  background: #4bff97;
 }

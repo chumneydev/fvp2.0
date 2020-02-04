@@ -84,6 +84,11 @@
                     }
             
                     &:hover {
+                        padding: 10px 0;
+                        color: $white;
+                        display: block;
+                        background: $blue-gradient;
+                        border-radius: $border-radius-large;
 
                     }
                 }
@@ -101,6 +106,40 @@
 
         form {
             padding: 20px 40px;
+
+
+
+
+
+            .file-input {
+                width: 0.1px;
+                height: 0.1px;
+                opacity: 0.5;
+                overflow: hidden;
+                position: absolute;
+                z-index: -1;
+                border: none;
+
+                & + label {
+                    font-size: 1.25em;
+                    color: $white;
+                    background: $dev;
+                    display: inline-block;
+                    cursor: pointer;
+                }
+
+                &:focus + label {
+                    background: $dev2;
+                }
+
+                & + label:hover {
+                    background: $dev2;
+
+                }
+
+            }
+
+
         }
 
 
