@@ -102,7 +102,7 @@
     
     <script>
 
-        var key = 'AIzaSyBuNb7uDwoGqbeFk6uBtO4QFelg2KdhOYU';
+        var key = '';
         var channelId = 'UCzX5VuQFrT49lV1Vvdup_xg';
         var client = 'zX5VuQFrT49lV1Vvdup_xg'; 
 
@@ -112,7 +112,7 @@
                 maxResults: 1,
                 key: key,
                 q: 'CHMO',*/
-                key: 'AIzaSyBuNb7uDwoGqbeFk6uBtO4QFelg2KdhOYU',
+                key: '',
                 channelId: 'UCzX5VuQFrT49lV1Vvdup_xg',
                 q: "CHMO",
                 part: 'snippet',
